@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculator</title>
+    <link rel='shortcut icon' type='image/x-icon' href='https://i.imgur.com/HFkZkNA.png'>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <input id="console" autofocus placeholder="Calculation..." onkeydown="check(event)" autocomplete="off">
+    <button class="numbers" onclick="addNum(event)">7</button>
+    <button class="numbers" onclick="addNum(event)">8</button>
+    <button class="numbers" onclick="addNum(event)">9</button>
+    <button class="numbers" onclick="addNum(event)">4</button>
+    <button class="numbers" onclick="addNum(event)">5</button>
+    <button class="numbers" onclick="addNum(event)">6</button>
+    <button class="numbers" onclick="addNum(event)">1</button>
+    <button class="numbers" onclick="addNum(event)">2</button>
+    <button class="numbers" onclick="addNum(event)">3</button>
+    <button class="numbers" onclick="addNum(event)">0</button>
+    <button class="numbers" onclick="addNum(event)">.</button>
+    <button class="numbers" onclick="calculate()">=</button>
+    <button class="operators" onclick="addOperator(event)">÷</button>
+    <button class="operators" onclick="addOperator(event)">x</button>
+    <button class="operators" onclick="addOperator(event)">-</button>
+    <button class="operators" onclick="addOperator(event)">+</button>
+    <button class="operators" onclick="cons.value=''">C</button>
+    <button id="secondF" onclick="secondF()">2nd</button>
+    <script src="script.js"></script>
+  </body>
+</html>
